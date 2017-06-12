@@ -70,6 +70,7 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
+/*
 $db['development']['hostname'] = 'in-cdbr-azure-south-c.cloudapp.net';
 $db['development']['username'] = 'bdb0d12f462d28';
 $db['development']['password'] = '3e7977de';
@@ -117,7 +118,7 @@ $db['production']['dbcollat'] = 'utf8_general_ci';
 $db['production']['swap_pre'] = '';
 $db['production']['autoinit'] = TRUE;
 $db['production']['stricton'] = FALSE;
-
+*/
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
