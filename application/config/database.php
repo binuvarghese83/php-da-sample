@@ -70,10 +70,10 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
-$db['development']['hostname'] = $ConnStrParts['DataSource'];
-$db['development']['username'] = $ConnStrParts['UserId'];
-$db['development']['password'] = $ConnStrParts['Password'];
-$db['development']['database'] = $ConnStrParts['Database'];
+$db['development']['hostname'] = 'in-cdbr-azure-south-c.cloudapp.net';
+$db['development']['username'] = 'bdb0d12f462d28';
+$db['development']['password'] = '3e7977de';
+$db['development']['database'] = 'binuwebappdb';
 $db['development']['dbdriver'] = 'mysql';
 $db['development']['dbprefix'] = '';
 $db['development']['pconnect'] = TRUE;
