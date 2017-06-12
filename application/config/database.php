@@ -70,7 +70,7 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
-*/
+
 
 $db['development']['hostname'] = 'in-cdbr-azure-south-c.cloudapp.net';
 $db['development']['username'] = 'bdb0d12f462d28';
@@ -87,8 +87,8 @@ $db['development']['dbcollat'] = 'utf8_general_ci';
 $db['development']['swap_pre'] = '';
 $db['development']['autoinit'] = TRUE;
 $db['development']['stricton'] = FALSE;
+*/
 
-/*
 $db['testing']['hostname'] = 'in-cdbr-azure-south-c.cloudapp.net';
 $db['testing']['username'] = 'bdb0d12f462d28';
 $db['testing']['password'] = '3e7977de';
@@ -105,6 +105,7 @@ $db['testing']['swap_pre'] = '';
 $db['testing']['autoinit'] = TRUE;
 $db['testing']['stricton'] = FALSE;
 
+/*
 $db['production']['hostname'] = 'in-cdbr-azure-south-c.cloudapp.net';
 $db['production']['username'] = 'bdb0d12f462d28';
 $db['production']['password'] = '3e7977de';
