@@ -54,10 +54,10 @@ $DefaultConnection = str_replace("Data Source=", "DataSource=", $DefaultConnecti
 $DefaultConnection = str_replace("User Id=", "UserId=", $DefaultConnection);
 parse_str($DefaultConnection, $ConnStrParts);
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['hostname'] = 'in-cdbr-azure-south-c.cloudapp.net';
+$db['default']['username'] = 'bdb0d12f462d28';
+$db['default']['password'] = '3e7977de';
+$db['default']['database'] = 'binuwebappdb';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
