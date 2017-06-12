@@ -54,6 +54,7 @@ $DefaultConnection = str_replace("Data Source=", "DataSource=", $DefaultConnecti
 $DefaultConnection = str_replace("User Id=", "UserId=", $DefaultConnection);
 parse_str($DefaultConnection, $ConnStrParts);
 
+/*
 $db['default']['hostname'] = 'in-cdbr-azure-south-c.cloudapp.net';
 $db['default']['username'] = 'bdb0d12f462d28';
 $db['default']['password'] = '3e7977de';
@@ -69,8 +70,8 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
+*/
 
-/*
 $db['development']['hostname'] = 'in-cdbr-azure-south-c.cloudapp.net';
 $db['development']['username'] = 'bdb0d12f462d28';
 $db['development']['password'] = '3e7977de';
@@ -87,6 +88,7 @@ $db['development']['swap_pre'] = '';
 $db['development']['autoinit'] = TRUE;
 $db['development']['stricton'] = FALSE;
 
+/*
 $db['testing']['hostname'] = 'in-cdbr-azure-south-c.cloudapp.net';
 $db['testing']['username'] = 'bdb0d12f462d28';
 $db['testing']['password'] = '3e7977de';
